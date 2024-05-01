@@ -2,11 +2,11 @@
   "type": "sleep",
   "templates": {
     "default": {
-      "url": "https://github.com/sh0ked/historical-chart-data/blob/main/templates/sleep_default.json",
+      "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/sleep_default.json",
       "path": "templates/sleep_default.json"
     },
     "type_1": {
-      "url": "https://github.com/sh0ked/historical-chart-data/blob/main/templates/sleep_type_1.json",
+      "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/sleep_type_1.json",
       "path": "templates/sleep_type_1.json",
       "conditions": {
         "user_state": "user",
