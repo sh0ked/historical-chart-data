@@ -1,0 +1,52 @@
+{
+	"content": [
+		{
+			"text": "Tossing More Than Turning",
+			"type": "text.header"
+		},
+		{
+			"text": "Looks like last night was a bit of a rollercoaster in dreamland. Since you’re both an athlete and dealing with insomnia, it’s crucial to manage your recovery actively. Consider a light workout and maybe some meditation to help smooth out the bumps from last night.",
+			"type": "text.body"
+		},
+		{
+			"text": "Pulse Peaks at Night",
+			"type": "text.subheader"
+		},
+		{
+			"text": "Your heart rate was on the high side, which might indicate your body was working overtime while you were trying to rest. This could be due to your intense training schedule or the stress from insomnia. Keep an eye on hydration and maybe ease up on the caffeine.",
+			"type": "text.body"
+		},
+		{
+			"data": {
+				"type": "aggregator_data",
+				"period": "P1D"
+			},
+			"type": "heart_rate_chart"
+		},
+		{
+			"text": "Short Night for a Long Day",
+			"type": "text.subheader"
+		},
+		{
+			"text": "You didn’t quite hit the sleep duration sweet spot last night. For someone juggling sports and sleep challenges, it’s essential to aim for a consistent sleep schedule. Maybe try winding down earlier with some relaxing pre-sleep rituals.",
+			"type": "text.body"
+		},
+		{
+			"data": {
+				"source": "backend",
+				"period": "P7D"
+			},
+			"type": "sleep_duration_chart"
+		},
+		{
+			"data": {
+				"source": "dyf"
+			},
+			"type": "sleep_duration_analytics"
+		},
+		{
+			"text": "You’re already a champ for choosing premium! Keep up the great work!",
+			"type": "paywall"
+		}
+	]
+}

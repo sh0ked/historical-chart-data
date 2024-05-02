@@ -1,0 +1,52 @@
+{
+	"content": [
+		{
+			"text": "夜间冠军：您的睡眠质量很高",
+			"type": "text.header"
+		},
+		{
+			"text": "恭喜，您今晚的睡眠表现出色！尽管您的心率略高，这可能是由于您的运动习惯。今天可以适当放慢脚步，确保充分恢复。",
+			"type": "text.body"
+		},
+		{
+			"text": "心跳加速，但无需惊慌",
+			"type": "text.subheader"
+		},
+		{
+			"text": "您的心率较高，这可能是因为您的运动训练。虽然这不一定是问题，但建议今天进行轻度活动，避免过度劳累。",
+			"type": "text.body"
+		},
+		{
+			"data": {
+				"type": "aggregator_data",
+				"period": "P1D"
+			},
+			"type": "heart_rate_chart"
+		},
+		{
+			"text": "睡得好，跑得快",
+			"type": "text.subheader"
+		},
+		{
+			"text": "您的睡眠时长适中，符合运动员的恢复需求。继续保持良好的睡眠习惯，以支持您的训练和比赛表现。",
+			"type": "text.body"
+		},
+		{
+			"data": {
+				"source": "backend",
+				"period": "P7D"
+			},
+			"type": "sleep_duration_chart"
+		},
+		{
+			"data": {
+				"source": "dyf"
+			},
+			"type": "sleep_duration_analytics"
+		},
+		{
+			"text": "您已选择加入我们的高级订阅，真是太棒了！感谢您的信任和支持，我们会继续为您提供最优质的服务。",
+			"type": "paywall"
+		}
+	]
+}
