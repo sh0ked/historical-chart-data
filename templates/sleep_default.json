@@ -4,11 +4,24 @@
 			"type": "vbox",
 			"items": [
 				{
-					"text": "Test text1",
-					"type": "text.header"
+					"text": "Header",
+					"type": "text.header",
+					"conditions": {
+						"and": [
+							{
+								"<": [{"var": "sleep_time"}, 25200]
+							},
+							{
+								"==": [{"var": "sleep_ranges.deep"}, 5430]
+							},
+							{
+								"==": [{"var": "sleep_interp.deep"}, "bad"]
+							}
+						]
+					}
 				},
 				{
-					"text": "Test text2 https://welltory.com",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. https://welltory.com",
 					"type": "text.body"
 				},
 				{
@@ -16,7 +29,7 @@
 					"type": "text.subheader"
 				},
 				{
-					"text": "Test text2",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. {name} and {heart_rate}",
 					"type": "text.body"
 				},
 				{
@@ -27,11 +40,11 @@
 					"type": "heart_rate_chart"
 				},
 				{
-					"text": "Test text2",
+					"text": "Subheader",
 					"type": "text.subheader"
 				},
 				{
-					"text": "Test text2",
+					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 					"type": "text.body"
 				},
 				{

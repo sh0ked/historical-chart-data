@@ -9,8 +9,23 @@
       "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/sleep_type_1.json",
       "path": "templates/sleep_type_1.json",
       "conditions": {
-        "user_state": "user",
-        "is_fake_trial": false,
+        "and": [
+          {
+            "<": [{"var": "sleep_time"}, 25200]
+          },
+          {
+            "==": [{"var": "sleep_ranges.deep"}, 5430]
+          },
+          {
+            "==": [{"var": "sleep_interp.deep"}, "bad"]
+          }
+        ]
+      }
+    },
+    "type_2": {
+      "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/sleep_type_2.json",
+      "path": "templates/sleep_type_2.json",
+      "conditions": {
         "$and": [
           {
             "geo_country": "Ukraine"
