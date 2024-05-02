@@ -2,6 +2,7 @@
     "cohorts": [
         "customer",
         "free",
+        "lang_de_De",
         "lang_en_US",
         "lang_ru_RU",
         "lang_sr_Cyrl_RS",

@@ -51,6 +51,18 @@
                 "user_segment_insomnia",
                 "lang_sr_Cyrl_RS"
             ]
+        },
+        {
+            "id": "type_5",
+            "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/type_5.json",
+            "cohorts": [
+                "free",
+                "today_badly_slept",
+                "today_average_hr",
+                "user_segment_sport",
+                "user_segment_insomnia",
+                "lang_de_De"
+            ]
         }
     ]
 }
