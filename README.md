@@ -2,8 +2,8 @@
 ## График
 ```json
 {
-	"type": "heart_rate_chart",
-  "period": "P1D"
+    "type": "heart_rate_chart",
+    "period": "P1D"
 }
 ```
 
@@ -11,8 +11,8 @@
 
 ```json
 {
-	"type": "text.body",
-  "text": "Let’s aim for a full $min_sleep_time$-$max_sleep_time$ hours tonight to help you feel more refreshed and ready to tackle the day."
+    "type": "text.body",
+    "text": "Let’s aim for a full $min_sleep_time$-$max_sleep_time$ hours tonight to help you feel more refreshed and ready to tackle the day."
 }
 ```
 
@@ -42,29 +42,29 @@
 ### Пример использования в шаблоне
 ```json
 {
-	"content": [
-		{
-			"type": "vbox",
-			"items": [
-				{
-					"text": "Header",
-					"type": "text.header",
-          "conditions": {
-						"and": [
-							{
-								"<": [{"var": "sleep_time"}, 25200]
-							},
-							{
-								"==": [{"var": "sleep_ranges.deep"}, 5430]
-							},
-							{
-								"==": [{"var": "sleep_interp.deep"}, "bad"]
-							}
-						]
-					}
-				},
-				{
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. https://welltory.com",
-					"type": "text.body"
-				},
+    "content": [
+        {
+            "type": "vbox",
+            "items": [
+                {
+                    "text": "Header",
+                    "type": "text.header",
+                    "conditions": {
+                        "and": [
+                            {
+                                "<": [{"var": "sleep_time"}, 25200]
+                            },
+                            {
+                                "==": [{"var": "sleep_ranges.deep"}, 5430]
+                            },
+                            {
+                                "==": [{"var": "sleep_interp.deep"}, "bad"]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. https://welltory.com",
+                    "type": "text.body"
+                },
 ```
