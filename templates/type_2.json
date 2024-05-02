@@ -48,5 +48,6 @@
             "text": "You’re already a champ for choosing premium! Keep up the great work!",
             "type": "paywall"
         }
-    ]
+    ],
+    "background_color": "ink"
 }

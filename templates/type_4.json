@@ -48,5 +48,6 @@
             "text": "Otključaj premium za detaljnije analize i personalizovane savete koji će ti pomoći da poboljšaš kvalitet sna i opšte zdravlje.",
             "type": "paywall"
         }
-    ]
+    ],
+    "background_color": "ink"
 }

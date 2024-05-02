@@ -49,5 +49,6 @@
 			"description": "Schalte exklusive Funktionen frei und erhalte tiefere Einblicke in deine Gesundheit und Fitness.",
 			"type": "paywall"
 		}
-	]
+	],
+    "background_color": "ink"
 }
