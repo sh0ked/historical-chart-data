@@ -1,72 +1,87 @@
 {
-	"content": [
-		{
-			"type": "vbox",
-			"items": [
-				{
-					"text": "Header",
-					"type": "text.header",
-					"conditions": {
-						"and": [
+	"content":[
+	   {
+		  "type":"vbox",
+		  "items":[
+			 {
+				"text":"Header",
+				"type":"text.header",
+				"conditions":{
+				   "and":[
+					  {
+						 "<":[
 							{
-								"<": [{"var": "sleep_time"}, 25200]
+							   "var":"sleep_time"
 							},
+							25200
+						 ]
+					  },
+					  {
+						 "==":[
 							{
-								"==": [{"var": "sleep_ranges.deep"}, 5430]
+							   "var":"sleep_ranges.deep"
 							},
+							5430
+						 ]
+					  },
+					  {
+						 "==":[
 							{
-								"==": [{"var": "sleep_interp.deep"}, "bad"]
-							}
-						]
-					}
-				},
-				{
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. https://welltory.com",
-					"type": "text.body"
-				},
-				{
-					"text": "Test text2",
-					"type": "text.subheader"
-				},
-				{
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. {name} and {heart_rate}",
-					"type": "text.body"
-				},
-				{
-					"data": {
-						"type": "aggregator_data",
-						"period": "P1D"
-					},
-					"type": "heart_rate_chart"
-				},
-				{
-					"text": "Subheader",
-					"type": "text.subheader"
-				},
-				{
-					"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-					"type": "text.body"
-				},
-				{
-					"data": {
-						"source": "backend",
-						"period": "P7D"
-					},
-					"type": "sleep_duration_chart"
-				},
-				{
-					"data": {
-						"source": "dyf"
-					},
-					"type": "sleep_duration_analytics"
-				},
-				{
-					"text": "text",
-					"description": "Description",
-					"type": "paywall"
+							   "var":"sleep_interp.deep"
+							},
+							"bad"
+						 ]
+					  }
+				   ]
 				}
-			]
-		}
+			 },
+			 {
+				"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. https://welltory.com",
+				"type":"text.body"
+			 },
+			 {
+				"text":"Test text2",
+				"type":"text.subheader"
+			 },
+			 {
+				"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. {name} and {heart_rate}",
+				"type":"text.body"
+			 },
+			 {
+				"data":{
+				   "type":"aggregator_data",
+				   "period":"P1D"
+				},
+				"type":"heart_rate_chart"
+			 },
+			 {
+				"text":"Subheader",
+				"type":"text.subheader"
+			 },
+			 {
+				"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"type":"text.body"
+			 },
+			 {
+				"data":{
+				   "source":"backend",
+				   "period":"P7D"
+				},
+				"type":"sleep_duration_chart"
+			 },
+			 {
+				"data":{
+				   "source":"dyf"
+				},
+				"type":"sleep_duration_analytics"
+			 },
+			 {
+				"text":"text",
+				"description":"Description",
+				"type":"paywall"
+			 }
+		  ]
+	   }
 	],
-	"background_color": "ink"
-}
+	"background_color":"ink"
+ }
