@@ -1,32 +1,17 @@
 {
     "cohorts": [
-        {
-            "value": 25200,
-            "date": "2024-04-25T00:00:00+0000"
-        },
-        {
-            "value": 27200,
-            "date": "2024-04-26T00:00:00+0000"
-        },
-        {
-            "value": 31200,
-            "date": "2024-04-27T00:00:00+0000"
-        },
-        {
-            "value": 30200,
-            "date": "2024-04-28T00:00:00+0000"
-        },
-        {
-            "value": 35200,
-            "date": "2024-04-29T00:00:00+0000"
-        },
-        {
-            "value": 22200,
-            "date": "2024-04-30T00:00:00+0000"
-        },
-        {
-            "value": 29200,
-            "date": "2024-05-01T00:00:00+0000"
-        }
+        "customer",
+        "free",
+        "lang_en_US",
+        "lang_ru_RU",
+        "lang_sr_Cyrl_RS",
+        "lang_zh_CN",
+        "today_average_hr",
+        "today_badly_slept",
+        "today_high_hr",
+        "today_low_hr",
+        "today_well_slept",
+        "user_segment_insomnia",
+        "user_segment_sport"
     ]
 }
