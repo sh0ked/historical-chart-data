@@ -1,0 +1,52 @@
+{
+    "content": [
+        {
+            "text": "Living your rest life",
+            "type": "text.header"
+        },
+        {
+            "text": "You seized the hay last night! To keep the good vibes rolling, consider a light morning workout and a balanced breakfast. Keep up the great sleep habits!",
+            "type": "text.body"
+        },
+        {
+            "text": "Heartbeat Harmony",
+            "type": "text.subheader"
+        },
+        {
+            "text": "resting heart rate within your personal norm — a sign of good sleep quality",
+            "type": "text.body"
+        },
+        {
+            "data": {
+                "type": "aggregator_data",
+                "period": "P1D"
+            },
+            "type": "heart_rate_chart"
+        },
+        {
+            "text": "Dream Duration Delight",
+            "type": "text.subheader"
+        },
+        {
+            "text": "got enough sleep — nice work",
+            "type": "text.body"
+        },
+        {
+            "data": {
+                "source": "backend",
+                "period": "P7D"
+            },
+            "type": "sleep_duration_chart"
+        },
+        {
+            "data": {
+                "source": "dyf"
+            },
+            "type": "sleep_duration_analytics"
+        },
+        {
+            "text": "Unlock more insights and personalized tips with Welltory Pro. Upgrade now!",
+            "type": "paywall"
+        }
+    ]
+}
