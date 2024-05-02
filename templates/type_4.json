@@ -1,52 +1,52 @@
 {
-	"content": [
-		{
-			"text": "Noćna borba: spavanje nije bilo najbolje",
-			"type": "text.header"
-		},
-		{
-			"text": "Izgleda da si se noćas prevrtao više nego što si spavao. Razmisli o večernjoj rutini i pokušaj da izbegneš kofein pre spavanja. Danas se fokusiraj na lagane aktivnosti i izbegavaj naporne treninge.",
-			"type": "text.body"
-		},
-		{
-			"text": "Srce u štrajku: nizak puls tokom noći",
-			"type": "text.subheader"
-		},
-		{
-			"text": "Tvoj puls je bio niži od uobičajenog, što može biti znak da tvoje telo nije potpuno oporavljeno. Razmisli o dodatnom odmoru i hidrataciji danas.",
-			"type": "text.body"
-		},
-		{
-			"data": {
-				"type": "aggregator_data",
-				"period": "P1D"
-			},
-			"type": "heart_rate_chart"
-		},
-		{
-			"text": "Trajanje sna: Kratka noć",
-			"type": "text.subheader"
-		},
-		{
-			"text": "Spavao si znatno kraće nego što je potrebno. Pokušaj da večeras ideš ranije na spavanje i osiguraj da tvoje spavaće okruženje bude što udobnije.",
-			"type": "text.body"
-		},
-		{
-			"data": {
-				"source": "backend",
-				"period": "P7D"
-			},
-			"type": "sleep_duration_chart"
-		},
-		{
-			"data": {
-				"source": "dyf"
-			},
-			"type": "sleep_duration_analytics"
-		},
-		{
-			"text": "Otključaj premium za detaljnije analize i personalizovane savete koji će ti pomoći da poboljšaš kvalitet sna i opšte zdravlje.",
-			"type": "paywall"
-		}
-	]
+    "content": [
+        {
+            "text": "Noćna borba: spavanje nije bilo najbolje",
+            "type": "text.header"
+        },
+        {
+            "text": "Izgleda da si se noćas prevrtao više nego što si spavao. Razmisli o večernjoj rutini i pokušaj da izbegneš kofein pre spavanja. Danas se fokusiraj na lagane aktivnosti i izbegavaj naporne treninge.",
+            "type": "text.body"
+        },
+        {
+            "text": "Srce u štrajku: nizak puls tokom noći",
+            "type": "text.subheader"
+        },
+        {
+            "text": "Tvoj puls je bio niži od uobičajenog, što može biti znak da tvoje telo nije potpuno oporavljeno. Razmisli o dodatnom odmoru i hidrataciji danas.",
+            "type": "text.body"
+        },
+        {
+            "data": {
+                "type": "aggregator_data",
+                "period": "P1D"
+            },
+            "type": "heart_rate_chart"
+        },
+        {
+            "text": "Trajanje sna: Kratka noć",
+            "type": "text.subheader"
+        },
+        {
+            "text": "Spavao si znatno kraće nego što je potrebno. Pokušaj da večeras ideš ranije na spavanje i osiguraj da tvoje spavaće okruženje bude što udobnije.",
+            "type": "text.body"
+        },
+        {
+            "data": {
+                "source": "backend",
+                "period": "P7D"
+            },
+            "type": "sleep_duration_chart"
+        },
+        {
+            "data": {
+                "source": "dyf"
+            },
+            "type": "sleep_duration_analytics"
+        },
+        {
+            "text": "Otključaj premium za detaljnije analize i personalizovane savete koji će ti pomoći da poboljšaš kvalitet sna i opšte zdravlje.",
+            "type": "paywall"
+        }
+    ]
 }

@@ -1,29 +1,56 @@
 {
-  "type": "sleep",
-  "default": {
-      "id": "default",
-      "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/default.json"
-   },
-   "templates": [
-     {
-      "id": "type_1",
-      "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/type_1.json",
-      "cohorts": ["customer", "today_badly_slept", "today_average_hr", "user_segment_insomnia", "lang_ru_RU"]
-     },
-     {
-      "id": "type_2",
-      "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/type_2.json",
-      "cohorts": ["customer", "today_badly_slept", "today_high_hr", "user_segment_sport", "user_segment_insomnia", "lang_en_US"]
-     },
-     {
-      "id": "type_3",
-      "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/type_3.json",
-      "cohorts": ["customer", "today_well_slept", "today_high_hr", "user_segment_sport", "user_segment_insomnia", "lang_zh_CN"]
-     },
-     {
-      "id": "type_4",
-      "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/type_4.json",
-      "cohorts": ["free", "today_badly_slept", "today_low_hr", "user_segment_sport", "user_segment_insomnia", "lang_sr_Cyrl_RS"]
-     }
-   ]
- }
+    "type": "sleep",
+    "default": {
+        "id": "default",
+        "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/default.json"
+    },
+    "templates": [
+        {
+            "id": "type_1",
+            "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/type_1.json",
+            "cohorts": [
+                "customer",
+                "today_badly_slept",
+                "today_average_hr",
+                "user_segment_insomnia",
+                "lang_ru_RU"
+            ]
+        },
+        {
+            "id": "type_2",
+            "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/type_2.json",
+            "cohorts": [
+                "customer",
+                "today_badly_slept",
+                "today_high_hr",
+                "user_segment_sport",
+                "user_segment_insomnia",
+                "lang_en_US"
+            ]
+        },
+        {
+            "id": "type_3",
+            "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/type_3.json",
+            "cohorts": [
+                "customer",
+                "today_well_slept",
+                "today_high_hr",
+                "user_segment_sport",
+                "user_segment_insomnia",
+                "lang_zh_CN"
+            ]
+        },
+        {
+            "id": "type_4",
+            "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/type_4.json",
+            "cohorts": [
+                "free",
+                "today_badly_slept",
+                "today_low_hr",
+                "user_segment_sport",
+                "user_segment_insomnia",
+                "lang_sr_Cyrl_RS"
+            ]
+        }
+    ]
+}
