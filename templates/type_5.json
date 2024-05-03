@@ -1,53 +1,83 @@
 {
     "content": [
         {
-            "text": "Nicht gerade eine Sternennacht",
-            "type": "text.header"
+            "text": "Ruhelose Nacht: nicht der beste Schlaf",
+            "type": "text.header",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 16
+            }
         },
         {
-            "text": "Dein Schlaf war letzte Nacht etwas unruhig, was? Keine Sorge, wir alle haben mal solche Nächte. Versuche heute, ein paar entspannende Aktivitäten einzuplanen und vielleicht früher ins Bett zu gehen. Ein kleiner Spaziergang im Mondlicht könnte Wunder wirken!",
-            "type": "text.body"
-        },
-        {
-            "text": "Herzschlag im Gleichgewicht",
-            "type": "text.subheader"
-        },
-        {
-            "text": "Deine Herzfrequenz war durchschnittlich, was gut ist! Es zeigt, dass dein Körper trotz des unruhigen Schlafs versucht hat, sich zu erholen. Ein Zeichen dafür, dass du auf dem richtigen Weg bist.",
-            "type": "text.body"
+            "text": "Deine Herzfrequenz war durchschnittlich, was normalerweise auf eine ausreichende Erholung hindeutet. Behalte diesen Trend im Auge, um langfristig deine Erholung zu optimieren.",
+            "type": "text.body",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 8
+            }
         },
         {
             "data": {
                 "type": "aggregator_data",
                 "period": "P1D"
             },
-            "type": "heart_rate_chart"
+            "type": "heart_rate_chart",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
-            "text": "Kurze Nacht, lange Tage?",
-            "type": "text.subheader"
+            "text": "Schlafdauer",
+            "type": "text.subheader",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
-            "text": "Es sieht so aus, als hättest du nicht genug Schlaf bekommen. Als Sportler und jemand, der mit Schlafproblemen kämpft, ist es wichtig, genügend Ruhe zu finden. Versuche, ein Schlafritual zu etablieren, das dir hilft, besser abzuschalten.",
-            "type": "text.body"
+            "text": "Es scheint, als hättest du nicht genug geschlafen. Versuche, ein Schlafritual zu etablieren, um deine Schlafqualität zu verbessern. Ein guter Start könnte ein entspannendes Abendritual sein.",
+            "type": "text.body",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 8
+            }
         },
         {
             "data": {
                 "source": "backend",
                 "period": "P7D"
             },
-            "type": "sleep_duration_chart"
+            "type": "sleep_duration_chart",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
             "data": {
                 "source": "dyf"
             },
-            "type": "sleep_duration_analytics"
+            "type": "sleep_duration_analytics",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
-            "text": "Entdecke mehr mit Welltory Premium!",
-            "description": "Schalte exklusive Funktionen frei und erhalte tiefere Einblicke in deine Gesundheit und Fitness.",
-            "type": "paywall"
+            "text": "Möchtest du besser schlafen und dich effektiver erholen?",
+            "description": "Verfolge 4 intelligente Metriken, sieh dir an, was deinen Schlaf beeinflusst, und erhalte jeden Morgen personalisierte Erholungstipps.",
+            "type": "paywall",
+            "margin": {
+                "top": 16
+            }
         }
     ],
     "background_color": "black"

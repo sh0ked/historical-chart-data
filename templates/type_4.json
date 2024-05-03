@@ -1,52 +1,83 @@
 {
     "content": [
         {
-            "text": "Noćna borba: spavanje nije bilo najbolje",
-            "type": "text.header"
+            "text": "Спавали као да сте на трништу: није баш најбољи сан",
+            "type": "text.header",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 16
+            }
         },
         {
-            "text": "Izgleda da si se noćas prevrtao više nego što si spavao. Razmisli o večernjoj rutini i pokušaj da izbegneš kofein pre spavanja. Danas se fokusiraj na lagane aktivnosti i izbegavaj naporne treninge.",
-            "type": "text.body"
-        },
-        {
-            "text": "Srce u štrajku: nizak puls tokom noći",
-            "type": "text.subheader"
-        },
-        {
-            "text": "Tvoj puls je bio niži od uobičajenog, što može biti znak da tvoje telo nije potpuno oporavljeno. Razmisli o dodatnom odmoru i hidrataciji danas.",
-            "type": "text.body"
+            "text": "Изгледа да сте имали тежак дан или вече које је утицало на ваш сан. Не брините, имамо неколико савета како да побољшате квалитет сна и опоравак. Прочитајте више о томе <a href='https://pubmed.ncbi.nlm.nih.gov/21550729/'>овде</a>.",
+            "type": "text.body",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 8
+            }
         },
         {
             "data": {
                 "type": "aggregator_data",
                 "period": "P1D"
             },
-            "type": "heart_rate_chart"
+            "type": "heart_rate_chart",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
-            "text": "Trajanje sna: Kratka noć",
-            "type": "text.subheader"
+            "text": "Анализа срчаног ритма током сна",
+            "type": "text.subheader",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 32
+            }
         },
         {
-            "text": "Spavao si znatno kraće nego što je potrebno. Pokušaj da večeras ideš ranije na spavanje i osiguraj da tvoje spavaće okruženje bude što udobnije.",
-            "type": "text.body"
+            "text": "Ваш срчани ритам био је нижи од уобичајеног, што може указивати на претеран умор или недостатак опоравка. Важно је обратити пажњу на ове сигнале које ваше тело шаље. Више информација о утицају сна на срчани ритам можете наћи <a href='https://pubmed.ncbi.nlm.nih.gov/22309485/'>овде</a>.",
+            "type": "text.body",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 8
+            }
         },
         {
             "data": {
                 "source": "backend",
                 "period": "P7D"
             },
-            "type": "sleep_duration_chart"
+            "type": "sleep_duration_chart",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
             "data": {
                 "source": "dyf"
             },
-            "type": "sleep_duration_analytics"
+            "type": "sleep_duration_analytics",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
-            "text": "Otključaj premium za detaljnije analize i personalizovane savete koji će ti pomoći da poboljšaš kvalitet sna i opšte zdravlje.",
-            "type": "paywall"
+            "text": "Желите бољи сан и бољи опоравак?",
+            "description": "Пратите 4 паметне метрике, видите шта утиче на ваш сан и добијајте персонализоване савете за опоравак сваког јутра",
+            "type": "paywall",
+            "margin": {
+                "top": 16
+            }
         }
     ],
     "background_color": "black"

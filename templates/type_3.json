@@ -1,52 +1,82 @@
 {
     "content": [
         {
-            "text": "夜间冠军：您的睡眠质量很高",
-            "type": "text.header"
+            "text": "睡得不错，但心跳偏快",
+            "type": "text.header",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 16
+            }
         },
         {
-            "text": "恭喜，您今晚的睡眠表现出色！尽管您的心率略高，这可能是由于您的运动习惯。今天可以适当放慢脚步，确保充分恢复。",
-            "type": "text.body"
-        },
-        {
-            "text": "心跳加速，但无需惊慌",
-            "type": "text.subheader"
-        },
-        {
-            "text": "您的心率较高，这可能是因为您的运动训练。虽然这不一定是问题，但建议今天进行轻度活动，避免过度劳累。",
-            "type": "text.body"
+            "text": "虽然你今晚睡得很好，但你的心率偏高，这可能是由于你的运动习惯或者是你的失眠问题。建议你今天进行轻松的活动，避免高强度训练。晚上尝试一些放松技巧，如冥想或热水澡，帮助你更好地休息。了解更多关于睡眠分析的信息，请访问<a href='https://help.welltory.com/articles/5790709'>睡眠分析</a>。",
+            "type": "text.body",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 8
+            }
         },
         {
             "data": {
                 "type": "aggregator_data",
                 "period": "P1D"
             },
-            "type": "heart_rate_chart"
+            "type": "heart_rate_chart",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
-            "text": "睡得好，跑得快",
-            "type": "text.subheader"
+            "text": "心率分析",
+            "type": "text.subheader",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 32
+            }
         },
         {
-            "text": "您的睡眠时长适中，符合运动员的恢复需求。继续保持良好的睡眠习惯，以支持您的训练和比赛表现。",
-            "type": "text.body"
+            "text": "你的心率虽然高于平常，但这可能与你的运动习惯有关。作为一名运动员，你的心率可能会有所不同。不过，持续的高心率也可能是压力或睡眠问题的信号。建议监测几天，看看是否有改善。更多信息请查看<a href='https://pubmed.ncbi.nlm.nih.gov/22309485/'>心率变异性与睡眠问题的研究</a>。",
+            "type": "text.body",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 8
+            }
         },
         {
             "data": {
                 "source": "backend",
                 "period": "P7D"
             },
-            "type": "sleep_duration_chart"
+            "type": "sleep_duration_chart",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
             "data": {
                 "source": "dyf"
             },
-            "type": "sleep_duration_analytics"
+            "type": "sleep_duration_analytics",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
-            "text": "您已选择加入我们的高级订阅，真是太棒了！感谢您的信任和支持，我们会继续为您提供最优质的服务。",
-            "type": "paywall"
+            "text": "感谢您选择我们的高级订阅服务！",
+            "type": "paywall",
+            "margin": {
+                "top": 16
+            }
         }
     ],
     "background_color": "black"

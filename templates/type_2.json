@@ -1,52 +1,91 @@
 {
     "content": [
         {
-            "text": "Tossing More Than Turning",
-            "type": "text.header"
+            "text": "Rest-laid plans gone astray: not a great sleep",
+            "type": "text.header",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 16
+            }
         },
         {
-            "text": "Looks like last night was a bit of a rollercoaster in dreamland. Since you’re both an athlete and dealing with insomnia, it’s crucial to manage your recovery actively. Consider a light workout and maybe some meditation to help smooth out the bumps from last night.",
-            "type": "text.body"
+            "text": "Looks like last night was a bit of a tussle in the sheets, huh? Not to worry, champ—every athlete has off days. Considering your high heart rate, it might be wise to take it easy today. Focus on some light stretching or a meditative walk. Remember, recovery is just as crucial as training. For more insights on managing sleep as an athlete with insomnia, check out this <a href='https://pubmed.ncbi.nlm.nih.gov/21550729/'>study on sleep and muscle recovery</a>.",
+            "type": "text.body",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 8
+            }
         },
         {
-            "text": "Pulse Peaks at Night",
-            "type": "text.subheader"
-        },
-        {
-            "text": "Your heart rate was on the high side, which might indicate your body was working overtime while you were trying to rest. This could be due to your intense training schedule or the stress from insomnia. Keep an eye on hydration and maybe ease up on the caffeine.",
-            "type": "text.body"
+            "text": "Heart Rate Highlights",
+            "type": "text.subheader",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 32
+            }
         },
         {
             "data": {
                 "type": "aggregator_data",
                 "period": "P1D"
             },
-            "type": "heart_rate_chart"
+            "type": "heart_rate_chart",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
-            "text": "Short Night for a Long Day",
-            "type": "text.subheader"
+            "text": "Sleep Duration Insights",
+            "type": "text.subheader",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
-            "text": "You didn’t quite hit the sleep duration sweet spot last night. For someone juggling sports and sleep challenges, it’s essential to aim for a consistent sleep schedule. Maybe try winding down earlier with some relaxing pre-sleep rituals.",
-            "type": "text.body"
+            "text": "Despite the restless night, it's important to keep an eye on how much shut-eye you're actually getting. Not enough sleep can sabotage your training and recovery. If you're consistently missing out on rest, consider consulting a sleep specialist. For now, here's a helpful <a href='https://help.welltory.com/articles/5790709'>guide on sleep analysis</a> to get you started.",
+            "type": "text.body",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 8
+            }
         },
         {
             "data": {
                 "source": "backend",
                 "period": "P7D"
             },
-            "type": "sleep_duration_chart"
+            "type": "sleep_duration_chart",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
             "data": {
                 "source": "dyf"
             },
-            "type": "sleep_duration_analytics"
+            "type": "sleep_duration_analytics",
+            "margin": {
+                "left": 8,
+                "right": 8,
+                "top": 12
+            }
         },
         {
-            "text": "You’re already a champ for choosing premium! Keep up the great work!",
-            "type": "paywall"
+            "text": "You're already a champ for choosing our premium service!",
+            "type": "paywall",
+            "margin": {
+                "top": 16
+            }
         }
     ],
     "background_color": "black"
