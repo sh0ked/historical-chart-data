@@ -63,6 +63,19 @@
                 "user_segment_insomnia",
                 "lang_de_De"
             ]
+        },
+        {
+            "id": "type_6",
+            "url": "https://raw.githubusercontent.com/sh0ked/historical-chart-data/main/templates/type_6.json",
+            "cohorts": [
+                "black_welltory",
+                "free",
+                "today_badly_slept",
+                "today_high_hr",
+                "user_segment_sport",
+                "user_segment_insomnia",
+                "lang_en_US"
+            ]
         }
     ]
 }

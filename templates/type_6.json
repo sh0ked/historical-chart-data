@@ -1,0 +1,53 @@
+{
+    "content": [
+        {
+            "text": "Hanging on by a bed: not the best sleep",
+            "type": "text.header"
+        },
+        {
+            "text": "Listen up, maggot! Last night was a disaster, and you know it. You tossed and turned like a fish out of water. It's time to get your act together! No more late-night cheeseburgers or binge-watching until your eyes bleed. Hit the sack earlier, and maybe, just maybe, you'll stop resembling a zombie at your morning roll call. Get moving, and don't let me catch you snoozing on duty again! <a href='https://help.welltory.com/articles/5790709'>Learn more here.</a>",
+            "type": "text.body"
+        },
+        {
+            "text": "Heart Rate Overdrive!",
+            "type": "text.subheader"
+        },
+        {
+            "text": "Your heart's been racing like it's trying to escape from your chest, sport! High HR during sleep? That's unacceptable for an athlete like you. You're not in the shape you think you are. Time to reassess your evening routine and maybe ease up on the caffeine, huh? Don't make me come there and make you do push-ups till you love sleeping early!",
+            "type": "text.body"
+        },
+        {
+            "data": {
+                "type": "aggregator_data",
+                "period": "P1D"
+            },
+            "type": "heart_rate_chart"
+        },
+        {
+            "text": "Sleep Duration Disaster",
+            "type": "text.subheader"
+        },
+        {
+            "text": "What's this? Barely any shut-eye? You think you can function like a well-oiled machine on fumes? You're not a robot; you're a human, so act like one. Get more sleep or I'll have you running laps till you dream of nothing but your cozy bed!",
+            "type": "text.body"
+        },
+        {
+            "data": {
+                "source": "backend",
+                "period": "P7D"
+            },
+            "type": "sleep_duration_chart"
+        },
+        {
+            "data": {
+                "source": "dyf"
+            },
+            "type": "sleep_duration_analytics"
+        },
+        {
+            "text": "Hey, you! Yes, you! Stop freeloading and get the premium. Only then you might just make it out of the sorry state you're in!",
+            "type": "paywall"
+        }
+    ],
+    "background_color": "black"
+}
