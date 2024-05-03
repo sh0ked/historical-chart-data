@@ -1,0 +1,45 @@
+{
+    "content": [
+        {
+            "text": "$text1",
+            "type": "text.header"
+        },
+        {
+            "text": "$body",
+            "type": "text.body"
+        },
+        {
+            "text": "$text2",
+            "type": "text.subheader"
+        },
+        {
+            "data": {
+                "type": "aggregator_data",
+                "period": "P1D"
+            },
+            "type": "heart_rate_chart"
+        },
+        {
+            "text": "$text4",
+            "type": "text.body"
+        },
+        {
+            "data": {
+                "source": "backend",
+                "period": "P7D"
+            },
+            "type": "sleep_duration_chart"
+        },
+        {
+            "data": {
+                "source": "dyf"
+            },
+            "type": "sleep_duration_analytics"
+        },
+        {
+            "text": "$text5",
+            "type": "paywall"
+        }
+    ],
+    "background_color": "black"
+}
