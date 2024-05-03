@@ -19,11 +19,8 @@
             }
         },
         {
-            "data": {
-                "type": "aggregator_data",
-                "period": "P1D"
-            },
-            "type": "heart_rate_chart",
+            "text": "Schlafdauer",
+            "type": "text.subheader",
             "margin": {
                 "left": 8,
                 "right": 8,
@@ -31,8 +28,11 @@
             }
         },
         {
-            "text": "Schlafdauer",
-            "type": "text.subheader",
+            "data": {
+                "type": "aggregator_data",
+                "period": "P1D"
+            },
+            "type": "heart_rate_chart",
             "margin": {
                 "left": 8,
                 "right": 8,
